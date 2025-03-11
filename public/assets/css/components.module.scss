@@ -1,0 +1,56 @@
+
+  @keyframes gradientAnimation {
+    0% {
+      background: radial-gradient(53.91% 122.66% at 48.2% 155.54%, 
+        rgb(57, 104, 169) 0%, rgb(20, 20, 20) 100%);
+    }
+    25% {
+      background: radial-gradient(53.91% 122.66% at 48.2% 155.54%, 
+        rgb(57, 156, 169) 0%, rgb(20, 20, 20) 100%);
+    }
+    50% {
+      background: radial-gradient(53.91% 122.66% at 48.2% 155.54%, 
+        rgb(74, 187, 126) 0%, rgb(20, 20, 20) 100%);
+    }
+    75% {
+      background: radial-gradient(53.91% 122.66% at 48.2% 155.54%, 
+        rgb(175, 70, 167) 0%, rgb(20, 20, 20) 100%);
+    }
+    100% {
+      background: radial-gradient(53.91% 122.66% at 48.2% 155.54%, 
+        rgb(57, 104, 169) 0%, rgb(20, 20, 20) 100%);
+    }
+  }
+  
+  .badgeWrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: white;
+    padding: 1px;
+  }
+  
+  .badge {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 16px;
+    font-size: 14px;
+    border-radius: 999px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    animation: gradientAnimation 5s infinite linear;
+  }
+  
+  .badgeText {
+    background: linear-gradient(90deg, rgb(225, 247, 215) 0%, rgb(182, 164, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+

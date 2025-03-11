@@ -1,0 +1,1475 @@
+:root {
+  --blue: #1e90ff;
+  --blue2: #6a60ff;
+  --white: #ffffff;
+  --black: #000;
+  --black1: #323232;
+  --yellow1: #ffd11b;
+  --purple1: #a68fca;
+  --grey1: #aaafc5;
+  --blue1: #a2a1d4;
+  --tw-bg-opacity: 1;
+}
+
+@font-face {
+  font-family: rubiekFont;
+  src: url("../fonts/Rubik-VariableFont_wght.ttf");
+}
+
+.settingHeaderColor {
+  /* backdrop-filter: blur(10px) brightness(75%) contrast(125%) opacity(50%) !important; */
+  background: transparent !important;
+}
+.headerOnScroll {
+  backdrop-filter: blur(16px) !important;
+}
+
+body {
+  background-color: rgba(16, 10, 40, 1) !important;
+  /* background-color: var(--blue) !important; */
+  font-family: rubiekFont !important;
+
+  .setNavColor {
+    color: var(--white) !important;
+  }
+
+  .welcomeGradient {
+    background: rgb(10, 9, 81);
+    background: linear-gradient(
+      180deg,
+      rgba(10, 9, 81, 1) 0%,
+      rgba(16, 10, 40, 1) 100%
+    );
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  span {
+    font-family: rubiekFont !important;
+  }
+
+  .containerSetting {
+    max-width: 85% !important;
+  }
+
+  .loginBtnSetting {
+    background-color: var(--white);
+    color: var(--black);
+    border: none !important;
+    border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .dropDownSetting {
+    .css-1u9des2-indicatorSeparator {
+      display: none;
+    }
+    .css-13cymwt-control {
+      background: transparent;
+      border: none;
+    }
+    .css-19bb58m {
+      color: var(--white) !important;
+    }
+    .css-1dimb5e-singleValue {
+      color: white !important;
+    }
+    .css-t3ipsp-control {
+      background-color: transparent !important;
+      border: none !important;
+      box-shadow: none;
+    }
+
+    .css-1cf01cf {
+      color: var(--white) !important;
+      background-color: red !important;
+
+      input {
+        color: white !important;
+        background-color: red !important;
+      }
+    }
+    .css-13cymwt-control {
+      cursor: pointer;
+    }
+  }
+
+  .freeTrialBtnSetting {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .heroMainHeading {
+    color: var(--white) !important;
+    font-size: 66px !important;
+    margin-bottom: 30px !important;
+    font-weight: 600;
+  }
+  .subBoldText {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    span {
+      font-weight: 400;
+    }
+  }
+
+  .setPrimaryBtn {
+    background-color: rgba(99, 91, 255, 1) !important;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .setSecondaryBtn {
+    border-color: hsla(0, 0%, 100%, 0.1);
+    background-color: hsla(0, 0%, 100%, 0.1) !important;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .tax-business {
+    background: transparent !important;
+
+    .highlightHeading {
+      color: var(--white);
+      font-size: 52px;
+      font-weight: 600;
+    }
+    .highlightParagraph {
+      color: var(--white);
+      font-size: 18px;
+      font-weight: 400;
+      margin-top: 22px;
+    }
+
+    .keyHighLightBox {
+      .keyHighlightHeading {
+        color: var(--white);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+      }
+      .keyHighlightPara {
+        color: hsla(0, 0%, 100%, 0.6);
+        line-height: 24px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .subPointSetting {
+    .subPointHeading {
+      color: hsla(0, 0%, 100%, 0.4);
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+    .subPointBullet {
+      color: hsla(0, 0%, 100%, 0.75);
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+    }
+  }
+  .about-area {
+    background-image: none;
+    background-color: transparent;
+
+    .fundedTextSetting {
+      background-color: black;
+    }
+
+    .fundedBtnsetting {
+      button {
+        background-color: black;
+        color: white;
+        border-radius: 16px;
+        padding: 7px 28px;
+      }
+      .fundHeading {
+        font-size: 67px;
+        line-height: 77px;
+        color: var(--white);
+        font-weight: 600;
+      }
+      .fundSubHeading {
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--white);
+      }
+    }
+
+    .tradingPlatGrid {
+      display: grid;
+      grid-template-columns: 1fr 66.6%;
+      gap: 18px;
+      .gridLeftSide {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+
+        .guarantedSideBox {
+          min-height: 18rem;
+          background: linear-gradient(180deg, #8055ff 0%, #4d19e0 100%);
+          border-radius: 8px;
+          display: grid !important ;
+          grid-template-columns: 2fr 1fr;
+          align-items: center;
+          gap: 12px;
+          padding: 48px 18px;
+          .guarantedHeading {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: var(--white);
+          }
+          .guarantedPara {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: hsla(0, 0%, 100%, 0.75);
+          }
+
+          transition: 0.3s all;
+
+          &:hover {
+            transform: translate(0, 0) rotate(0deg) skewX(0deg) skewY(0deg)
+              scaleX(1.02) scaleY(1.02);
+
+            transition: 0.3s all;
+          }
+        }
+      }
+      .gridRightSide {
+        .setYourChoice {
+          transition: 0.3s all;
+
+          &:hover {
+            transition: 0.3s all;
+            transform: translate(0, 0) rotate(0deg) skewX(0deg) skewY(0deg)
+              scaleX(1.02) scaleY(1.02);
+          }
+
+          height: 100%;
+          background-color: rgba(38, 17, 109, 1);
+          border-radius: 8px;
+          padding: 0;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          .leftImgSet {
+            background-image: url("../img/about/netback.svg");
+            background-size: contain;
+            background-position: top;
+            background-repeat: no-repeat;
+            padding: 12px;
+            padding: 40px;
+
+            .choiceText {
+              color: var(--yellow1);
+              font-size: 1rem;
+              line-height: 1.5rem;
+            }
+            .choiceHeadingText {
+              font-weight: 600;
+              font-size: 28px;
+              color: var(--white);
+              margin-top: 18px;
+            }
+            .choiceSubHeadingText {
+              font-size: 1rem;
+              line-height: 1.5rem;
+              font-weight: 600;
+              color: var(--white);
+              margin-top: 40px;
+            }
+            .choiceParaText {
+              font-size: 1rem;
+              line-height: 1.75rem;
+              color: hsla(0, 0%, 100%, 0.75);
+              font-weight: 400;
+              margin-top: 50px;
+            }
+          }
+          .rightImgSet {
+            background-image: url("../img/about/trading-platform.webp");
+            background-size: contain;
+            background-position: bottom right;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
+
+  .communitySupport {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    color: hsla(0, 0%, 100%, 0.3);
+  }
+
+  .enpoweringTradingSetting {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 18px;
+    .etsFirstItem {
+      height: 426px;
+      overflow: hidden;
+      border-radius: 16px;
+      position: relative;
+      video {
+        border-radius: 16px;
+      }
+      .contentItemSet {
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.303046218487395) 0%,
+          rgba(16, 18, 24, 1) 100%
+        );
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(4%, 50%);
+        height: 100%;
+
+        .etsFirstHeading {
+          font-weight: 400;
+          font-size: 34px;
+          line-height: 45px;
+          color: var(--white);
+        }
+        .etsFirstSubItem {
+          position: relative;
+          padding-left: 1rem;
+          &::before {
+            position: absolute;
+            display: block;
+            content: "";
+            border-radius: 17px;
+            background: linear-gradient(180deg, #8b55ff 0%, #4d19e0 100%);
+            width: 4px;
+            height: 100%;
+            left: 0;
+          }
+
+          h4 {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.75rem;
+            color: var(--white);
+          }
+          p {
+            color: hsla(0, 0%, 100%, 0.75);
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 400;
+          }
+        }
+        .etsSecondSubItem {
+          position: relative;
+          padding-left: 1rem;
+          &::before {
+            position: absolute;
+            display: block;
+            content: "";
+            border-radius: 17px;
+            background: linear-gradient(180deg, #56e8ff 0%, #0167e0 100%);
+            width: 4px;
+            height: 100%;
+            left: 0;
+          }
+
+          h4 {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.75rem;
+            color: var(--white);
+          }
+          p {
+            color: hsla(0, 0%, 100%, 0.75);
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 400;
+          }
+        }
+        .etsThirdSubItem {
+          position: relative;
+          padding-left: 1rem;
+          &::before {
+            position: absolute;
+            display: block;
+            content: "";
+            border-radius: 17px;
+            background: linear-gradient(180deg, #ff69ba 0%, #d40140 100%);
+            width: 4px;
+            height: 100%;
+            left: 0;
+          }
+
+          h4 {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.75rem;
+            color: var(--white);
+          }
+          p {
+            color: hsla(0, 0%, 100%, 0.75);
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .etsSecondItem {
+      background-color: rgb(23 21 58 / var(--tw-bg-opacity, 1));
+      border-radius: 16px;
+      padding: 12px;
+      .fundedHeading {
+        color: var(--white);
+        margin-top: 30px;
+        line-height: 39px;
+        font-weight: 500;
+        font-size: 35px;
+      }
+      .fundedPara {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-top: 21px;
+      }
+    }
+    .etsThirdItem {
+      background-color: rgb(23 21 58 / var(--tw-bg-opacity, 1));
+      border-radius: 16px;
+      padding: 12px;
+      .fundedHeading {
+        color: var(--white);
+        margin-top: 30px;
+        line-height: 39px;
+        font-weight: 500;
+        font-size: 35px;
+      }
+      .fundedPara {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 1.3rem;
+        line-height: 28px;
+        margin-top: 21px;
+      }
+    }
+  }
+
+  .pricing-area {
+    .challengeBtn {
+      background-color: black;
+      color: white;
+      border-radius: 16px;
+      padding: 7px 28px;
+      border: none;
+    }
+
+    .pricingMainHeading {
+      font-size: 67px;
+      line-height: 77px;
+      color: var(--white);
+      font-weight: 600;
+    }
+
+    .availablePaymenHeading {
+      letter-spacing: 2.9px;
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      color: hsla(0, 0%, 100%, 0.5);
+    }
+  }
+
+  .pricingContainerSetting {
+    margin-top: 20px;
+    min-height: 34rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 18px;
+    align-items: end;
+
+    .popularPlanSet {
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      color: var(--white);
+      letter-spacing: 2.24px;
+    }
+
+    .stellarPricePricing {
+      /* height: calc(100% + 48px); */
+      height: 100%;
+      background: linear-gradient(
+        rgb(128, 0, 255) -1.15%,
+        rgb(173, 91, 255) 9.33%
+      );
+      border-radius: 22px;
+      padding: 12px;
+      .innerContainerSetting {
+        height: 94%;
+        background: radial-gradient(
+          244.14% 100% at 50% 0%,
+          rgb(120, 6, 174) 0%,
+          rgb(42, 5, 79) 60%
+        );
+        border-radius: 16px;
+        padding: 20px;
+      }
+
+      .stellarMainHeading {
+        font-size: 34px;
+        font-weight: 600;
+        color: var(--white);
+        margin-top: 12px;
+      }
+      .stellarSubPara {
+        color: rgb(166, 143, 202);
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+      .rulerHeighSet {
+        background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(102, 6, 152, 1) 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        height: 3px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .stellarBullerPoint {
+        li {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          color: var(--purple1);
+          font-weight: 400;
+        }
+      }
+      .startChallengeText {
+        color: var(--white);
+        display: none;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.4s ease, transform 0.4s ease;
+        top: 0;
+        transform: translate(0px, 50%);
+      }
+    }
+  }
+  .stellarLitePricing {
+    .innerContainerSetting {
+      min-height: 32rem;
+      background: radial-gradient(
+        244.14% 100% at 50% 0%,
+        #3d4177 0%,
+        #1d1d32 60%
+      );
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .stellarMainHeading {
+      font-size: 34px;
+      font-weight: 600;
+      color: var(--white);
+      margin-top: 12px;
+    }
+    .stellarSubPara {
+      color: var(--grey1);
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+    .rulerGreyHeighSet {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(58, 61, 111, 1) 50%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      height: 3px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .stellarBullerPoint {
+      li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--grey1);
+        font-weight: 400;
+      }
+    }
+    .startChallengeText {
+      color: var(--white);
+      display: none;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      top: 0;
+      transform: translate(0px, 50%);
+    }
+  }
+
+  .evaluationPricing {
+    .innerContainerSetting {
+      min-height: 32rem;
+      background: radial-gradient(
+        244.14% 100% at 50% 0%,
+        #593dc7 0%,
+        #1b0a49 60%
+      );
+      border-radius: 16px;
+      padding: 20px;
+    }
+    .stellarMainHeading {
+      font-size: 34px;
+      font-weight: 600;
+      color: var(--white);
+      margin-top: 12px;
+    }
+    .stellarSubPara {
+      color: var(--blue1);
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+    .rulerGreyHeighSet {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(58, 61, 111, 1) 50%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      height: 3px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .stellarBullerPoint {
+      li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--blue1);
+        font-weight: 400;
+      }
+    }
+    .startChallengeText {
+      color: var(--white);
+      display: none;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      top: 0;
+      transform: translate(0px, 50%);
+    }
+  }
+
+  .expressPricing {
+    .innerContainerSetting {
+      min-height: 32rem;
+      background: radial-gradient(
+        244.14% 100% at 50% 0%,
+        #593dc7 0%,
+        #1b0a49 60%
+      );
+      border-radius: 16px;
+      padding: 20px;
+    }
+    .stellarMainHeading {
+      font-size: 34px;
+      font-weight: 600;
+      color: var(--white);
+      margin-top: 12px;
+    }
+    .stellarSubPara {
+      color: var(--blue1);
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+    .rulerGreyHeighSet {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(58, 61, 111, 1) 50%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      height: 3px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .stellarBullerPoint {
+      li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--blue1);
+        font-weight: 400;
+      }
+    }
+    .startChallengeText {
+      color: var(--white);
+      display: none;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      top: 0;
+      transform: translate(0px, 50%);
+    }
+  }
+
+  .stellarPricePricing:hover .startChallengeText {
+    display: block !important;
+    opacity: 1;
+    top: 0;
+    transform: translate(0, -100%);
+  }
+  .stellarLitePricing:hover .startChallengeText {
+    display: block !important;
+    opacity: 1;
+    bottom: 0;
+    /* transform: translate(0px, -27px); */
+    transform: translate(0px, -17px);
+  }
+  .evaluationPricing:hover .startChallengeText {
+    display: block !important;
+    opacity: 1;
+    bottom: 0;
+    transform: translate(0px, -27px);
+  }
+  .expressPricing:hover .startChallengeText {
+    display: block !important;
+    opacity: 1;
+    bottom: 0;
+    transform: translate(0px, -17px);
+  }
+
+  .movingLogoSetting {
+    /* background-color: #231d39; */
+    /* padding: 12px; */
+  }
+
+  .planSectionSetting {
+    background: linear-gradient(90.01deg, #8920db 18.62%, #0b135c 81.47%);
+  }
+
+  .choosePlanMainHeading {
+    color: var(--white);
+    line-height: 70px;
+    font-size: 56px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  .pricingTabSetting {
+    .navTitleSet {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+    .settingPrefenceSec {
+      p {
+        color: #ffffff80;
+      }
+      label {
+        color: var(--white);
+      }
+    }
+
+    .nav-tabs {
+      border: none;
+      padding: 12px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 43px;
+      border-color: hsla(0, 0%, 100%, 0.3);
+      display: flex;
+      align-items: center;
+      gap: 13px;
+
+      li {
+        button {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 30px;
+          padding-right: 30px;
+          border-radius: 9999px;
+          font-size: 1.125rem;
+          color: #7f7a94;
+          &:hover {
+            background-color: hsla(0, 0%, 100%, 0.1) !important;
+            border: none;
+          }
+        }
+        .active {
+          &:hover {
+            background-color: var(--white) !important;
+          }
+        }
+      }
+    }
+    .tab-content {
+      width: 100%;
+    }
+  }
+  .PricingTableSetting {
+    table {
+      border-radius: 12px;
+      overflow: hidden;
+
+      .tableHeadingSet {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--white);
+      }
+
+      .getPlanBtn {
+        background: linear-gradient(180deg, #5276ff, #5136ff);
+
+        .getPlanHeading {
+          font-weight: 600;
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+          color: var(--white);
+        }
+        .getPlanFee {
+          font-weight: 500;
+          font-size: 0.75rem;
+          line-height: 1rem;
+          color: var(--white);
+        }
+      }
+      .tableParaTexxt {
+        color: var(--white);
+        font-weight: 400;
+        font-size: 15px;
+      }
+    }
+
+    tr {
+      border: none !important;
+      td {
+        padding: 18px;
+        color: var(--white) !important;
+        border: none;
+        border-right: 1px solid #ffffff1a;
+      }
+    }
+    .table-striped > tbody > tr:nth-of-type(odd) > * {
+      background-color: #12133f;
+    }
+    .table-bordered > :not(caption) > * > * {
+      background-color: #120b3d;
+    }
+  }
+  .setTabsBtmText {
+    p {
+      color: var(--white);
+      font-weight: 600;
+    }
+    li {
+      color: var(--white);
+    }
+  }
+
+  .startTalkingSection {
+    .startTalkingLeftSection {
+      .startTakBtn {
+        background-color: black;
+        color: var(--white);
+        padding: 8px 23px;
+        border-radius: 30px;
+      }
+      .starTalkingHeading {
+        font-weight: 700;
+        color: var(--white);
+        font-size: 51px;
+        line-height: 53px;
+        margin-top: 18px;
+      }
+      .starTalkingPara {
+        color: hsla(0, 0%, 100%, 0.6);
+        font-size: 19px;
+        font-weight: 300;
+        margin-top: 18px;
+      }
+    }
+    .startTalkingRightSection {
+      display: grid;
+      grid-template-columns: 240px 240px 240px;
+      /* gap: 22px; */
+      justify-content: space-between;
+      .startTalkCardSetting {
+        .cardImageSet {
+          width: 100%;
+          height: 344px;
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+          border-radius: 16px;
+          overflow: hidden;
+          border: 1px solid var(--white);
+        }
+        .stCardHeading {
+          font-weight: 600;
+          font-size: 18px;
+          color: var(--white);
+        }
+        .stCardSubHeading {
+          color: hsla(0, 0%, 100%, 0.75);
+          font-size: 14px;
+        }
+        .settingVideoIconPost {
+          top: 79px;
+          transform: translate(0px, 100%);
+          transition: all 0.3s;
+          cursor: pointer;
+          &:hover {
+            transform: translate(0px, 100%) scale(1.2) !important;
+            transition: all 0.3s;
+          }
+        }
+      }
+    }
+  }
+  .videoModalSetting {
+    .modal-content {
+      background-color: transparent !important;
+    }
+  }
+
+  .whyChooseUsContainer {
+    .whoChooseBtn {
+      background-color: black;
+      color: white;
+      border-radius: 16px;
+      padding: 7px 28px;
+      border: none;
+    }
+    .whyChooseHeading {
+      font-size: 67px;
+      line-height: 77px;
+      color: var(--white);
+      font-weight: 600;
+    }
+    .whyChoosePara {
+      font-size: 24px;
+      font-weight: 400;
+      color: hsla(0, 0%, 100%, 0.6);
+    }
+
+    .whyChooseUsTable {
+      table {
+        border-radius: 12px;
+        overflow: hidden;
+
+        .tableHeadingSet {
+          font-size: 20px;
+          font-weight: 500;
+          color: var(--white);
+        }
+
+        .getPlanBtn {
+          background: linear-gradient(180deg, #5276ff, #5136ff);
+
+          .getPlanHeading {
+            font-weight: 600;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            color: var(--white);
+          }
+          .getPlanFee {
+            font-weight: 500;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            color: var(--white);
+          }
+        }
+        .tableParaTexxt {
+          color: var(--white);
+          font-weight: 400;
+          font-size: 15px;
+        }
+      }
+
+      tr {
+        border: none !important;
+        td {
+          padding: 18px;
+          color: var(--white) !important;
+          border: none;
+          border-right: 1px solid #ffffff1a;
+          vertical-align: middle;
+        }
+      }
+      .table-striped > tbody > tr:nth-of-type(odd) > * {
+        background-color: #1c1633;
+      }
+      .table-bordered > :not(caption) > * > * {
+        background-color: #1c1633;
+      }
+    }
+  }
+
+  .traderLoveContainer {
+    .traderLoveBtn {
+      background-color: black;
+      color: white;
+      border-radius: 16px;
+      padding: 7px 28px;
+      border: none;
+    }
+    .traderLovePara {
+      font-size: 24px;
+      font-weight: 400;
+      color: hsla(0, 0%, 100%, 0.6);
+    }
+    .traderLoveHeading {
+      font-size: 67px;
+      line-height: 77px;
+      color: var(--white);
+      font-weight: 600;
+    }
+    .reviewSectionSetting {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 12px;
+      height: 596px;
+      overflow: scroll;
+      scrollbar-width: none;
+      img {
+        width: 100%;
+      }
+    }
+
+    .globalEventSection {
+      border-radius: 19px;
+      overflow: hidden;
+      /* height: 30rem; */
+      min-height: 33rem;
+      border-radius: 16px;
+      background-image: url("/assets/img/about/glob-img-corner.jpg");
+      background-size: cover;
+      background-position: right top;
+      background-repeat: no-repeat;
+      .inngerGlobalEvent {
+        /* background-color: yellow; */
+        padding: 68px;
+        width: 100%;
+        height: 100%;
+        background: rgb(27, 19, 56);
+        background: linear-gradient(
+          90deg,
+          rgba(27, 19, 56, 1) 0%,
+          rgba(27, 19, 56, 1) 54%,
+          rgba(27, 19, 56, 0) 100%
+        );
+
+        .globalEventHeading {
+          font-size: 67px;
+          line-height: 77px;
+          color: var(--white);
+          font-weight: 600;
+        }
+        .globalEventPara {
+          color: hsla(0, 0%, 100%, 0.6);
+          font-size: 19px;
+          font-weight: 300;
+          margin-top: 18px;
+        }
+        .innerBoxSet {
+          width: 50%;
+        }
+      }
+      .sliderImageSetting {
+        img {
+          border-radius: 16px;
+        }
+      }
+    }
+  }
+
+  .setHeightSectionBackground {
+    height: 23rem;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    .footerLogoSide {
+      background-image: linear-gradient(
+        180deg,
+        hsla(0, 0%, 100%, 0.08),
+        hsla(0, 0%, 100%, 0)
+      );
+      padding: 12px;
+    }
+
+    .footerLineBackground {
+      background-image: linear-gradient(
+        180deg,
+        hsla(0, 0%, 100%, 0.08),
+        hsla(0, 0%, 100%, 0)
+      );
+    }
+    .footerModel {
+      padding: 12px;
+      display: flex;
+      justify-content: center;
+
+      .modelMainHeading {
+        color: hsla(0, 0%, 100%, 0.4);
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        padding-bottom: 1.5rem;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        li {
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          color: var(--white);
+        }
+      }
+    }
+  }
+
+  .stylebackgroundFooter {
+    position: relative;
+    /* background-color: #100a28; */
+    height: 35rem;
+    video {
+      opacity: 0.1;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+  .tradingFooterText {
+    color: #ffffff66;
+    margin-top: 200px;
+    border-top: 1px solid;
+    padding-top: 23px;
+  }
+}
+
+.header-2 li.dropdown-parrent ul.theme-dropdown li a:after {
+  background-color: #0b135c;
+  border-radius: 6px;
+}
+
+.faqs_Faqsheader__geHvD {
+  .css-1jqq78o-placeholder {
+    color: var(--white) !important;
+  }
+  .css-1u9des2-indicatorSeparator {
+    display: none;
+  }
+  .css-13cymwt-control {
+    background-color: transparent;
+    background: transparent !important;
+    border: none !important;
+  }
+  .css-1dimb5e-singleValue {
+    color: var(--white) !important;
+  }
+  .css-t3ipsp-control {
+    background-color: transparent !important;
+    background: transparent !important;
+  }
+}
+
+.stellarPricingContainer {
+  background: rgb(99, 29, 185);
+  background: linear-gradient(
+    180deg,
+    rgba(99, 29, 185, 1) 0%,
+    rgba(72, 27, 165, 1) 23%,
+    rgba(55, 25, 151, 1) 45%,
+    rgba(15, 27, 135, 1) 65%,
+    rgb(38, 24, 94) 95%
+  );
+  border-radius: 65px 65px 0px 0px;
+  .stellarPricingTable {
+    .choosePlanHeading {
+      font-weight: 600;
+      font-size: 52px;
+      color: var(--white);
+      text-align: center;
+      margin-bottom: 42px;
+    }
+
+    .PricingTableSetting {
+      table {
+        border-radius: 12px;
+        overflow: hidden;
+
+        .tableHeadingSet {
+          font-size: 20px;
+          font-weight: 500;
+          color: var(--white);
+        }
+
+        .getPlanBtn {
+          background: linear-gradient(180deg, #5276ff, #5136ff);
+
+          .getPlanHeading {
+            font-weight: 600;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            color: var(--white);
+          }
+          .getPlanFee {
+            font-weight: 500;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            color: var(--white);
+          }
+        }
+        .tableParaTexxt {
+          color: var(--white);
+          font-weight: 400;
+          font-size: 15px;
+        }
+      }
+
+      tr {
+        border: none !important;
+        td {
+          padding: 18px;
+          color: var(--white) !important;
+          border: none;
+          border-right: 1px solid #ffffff1a;
+        }
+      }
+      .table-striped > tbody > tr:nth-of-type(odd) > * {
+        background-color: #12133f;
+      }
+      .table-bordered > :not(caption) > * > * {
+        background-color: #120b3d;
+      }
+    }
+  }
+}
+
+.containerPricingExpress {
+  background: linear-gradient(
+    180deg,
+    rgba(99, 29, 185, 1) 0%,
+    rgba(72, 27, 165, 1) 23%,
+    rgba(55, 25, 151, 1) 45%,
+    rgba(15, 27, 135, 1) 65%,
+    rgb(38, 24, 94) 95%
+  );
+  border-radius: 65px 65px 0px 0px;
+  .settingPrefenceSec {
+    p {
+      color: #ffffff80;
+    }
+    label {
+      color: var(--white);
+    }
+  }
+
+  .expressPricingHeading {
+    line-height: 1.375;
+    font-weight: 600;
+    font-size: 52px;
+    text-align: center;
+
+    color: var(--white);
+  }
+  padding-bottom: 78px;
+}
+
+.stellarPricingContainer {
+  background: linear-gradient(
+    180deg,
+    rgba(99, 29, 185, 1) 0%,
+    rgba(72, 27, 165, 1) 23%,
+    rgba(55, 25, 151, 1) 45%,
+    rgba(15, 27, 135, 1) 65%,
+    rgb(38, 24, 94) 95%
+  );
+  border-radius: 65px 65px 0px 0px;
+
+  padding-top: 23px !important;
+  padding-bottom: 72px;
+}
+
+.affiliateContainer {
+  padding-top: 83px;
+  min-height: 100vh;
+
+  .affiliateHeroSection {
+    .affiliateSmHeading {
+      font-size: 16px;
+      color: #c7c7c7;
+      text-align: center;
+      font-weight: 500;
+    }
+    .affiliateMainHeading {
+      font-size: 60px;
+      color: var(--white);
+      font-weight: 800;
+      text-align: center;
+    }
+    .affiliateParagraph {
+      font-size: 35px;
+      line-height: 1.5rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 18px;
+    }
+
+    .becomeAffiliateBtn {
+      background-color: #635bff;
+      color: var(--white);
+      width: 300px;
+      height: 3rem;
+      border-radius: 25px;
+      border: none;
+    }
+    .AffiliateBtn {
+      background-color: #635bff;
+      color: var(--white);
+      width: 300px;
+      height: 3rem;
+      border-radius: 25px;
+      border: none;
+    }
+  }
+}
+
+.setPadding {
+  padding-top: 85px;
+}
+
+.cardHeightSetting {
+  height: 20rem;
+}
+
+.hoverUpAnimation {
+  transition: 0.3s all;
+  cursor: pointer;
+
+  &:hover {
+    transform: translate(0, 0) rotate(0deg) skewX(0deg) skewY(0deg) scaleX(1.02)
+      scaleY(1.02);
+    transition: 0.3s all;
+  }
+}
+/* White Theme Work */
+
+.blogPageContainer {
+  padding-top: 7rem;
+
+  .blogPageHeading {
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--black);
+    text-align: center;
+    span {
+      color: var(--blue2);
+    }
+  }
+  .blogPageParagraph {
+    text-align: center;
+    color: var(--black1);
+  }
+}
+
+.blogLeftSide {
+  .dateText {
+    color: #61626a;
+    font-weight: 500;
+  }
+  .blogSubHeadingTxt {
+    font-weight: 700;
+    color: var(--black);
+    font-size: 1.5rem;
+  }
+  .blogParagraphTxt {
+    color: #595959;
+
+    font-size: 0.875rem;
+  }
+}
+
+.SearchCard {
+  display: grid;
+  grid-template-columns: 1fr 58.333333%;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  .searchCardHeading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+  }
+  .searchCardParagraph {
+    color: #595959;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.categoriesSectionContainer {
+  margin-top: 3rem;
+  .categoryMainHeading {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #353535;
+  }
+
+  .catergoriesItemSetting {
+    border-bottom: 0.5px solid #f0f0f0;
+    padding-bottom: 22px;
+    margin-top: 22px;
+  }
+}

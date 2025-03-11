@@ -1,0 +1,62 @@
+.guidesection1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        max-width: 54rem;
+        .h2{
+            font-size: 26px;
+            font-weight: 600;
+        }
+h4{
+    font-size: 0.75rem; 
+    font-weight: 600;
+    line-height: 1.25rem; 
+    text-decoration: none; 
+  
+    &:hover {
+      text-decoration: underline; 
+    }
+  
+    @media (min-width: 1280px) {
+      font-size: 1rem; 
+    }
+}
+p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+img{
+    border-radius: 8px;
+    object-fit: cover;
+}
+        .texts{
+            padding: 1rem;
+            p{
+                padding: 20px 1rem;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+           h2{
+            font-weight: 600;
+            .span{
+                color: #5f5bfe !important;
+            }
+           }
+           h1{
+            font-weight: 600;
+           }
+        }
+    }
+
+}
+
+.footerCta{
+    background: linear-gradient(91.44deg, rgb(95, 87, 255) 1.22%, rgba(107, 17, 255, 0.85) 98.77%);
+    backdrop-filter: blur(2.02735px);
+    padding: 20px;
+    border-radius: 10px;
+    color: white; 
+    position: relative;
+  
+}
